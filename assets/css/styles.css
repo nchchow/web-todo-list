@@ -5,6 +5,16 @@
   margin: 100px auto;
 }
 
+h1 {
+  background-color: #2980b9;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin: 0;
+}
+
 .done {
   color: gray;
   text-decoration: line-through;
