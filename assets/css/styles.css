@@ -5,7 +5,7 @@ body {
 #container {
   width: 360px;
   background-color: #f7f7f7;
-  box-shadow: 0 0 3px rbga(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 3px rbga(0, 0, 0, .1);
   margin: 100px auto;
 }
 
@@ -21,8 +21,19 @@ h1 {
 
 input {
   width: 100%;
+  color: #2980b9;
   font-size: 18px;
   background-color: #f7f7f7;
+  padding: 13px 20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+input:focus {
+  background-color: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
 }
 
 ul {
