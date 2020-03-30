@@ -1,7 +1,8 @@
 #container {
   width: 360px;
-  border: 2px solid gray;
-  margin: 0 auto;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 3px rbga(0, 0, 0, 0.1);
+  margin: 100px auto;
 }
 
 .done {
