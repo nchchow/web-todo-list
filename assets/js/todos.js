@@ -11,3 +11,16 @@ $("span").on("click", function(event) {
   });
   event.stopPropagation();  // prevents event bubbling
 });
+
+// create new todo by text input and pressing enter
+$("input[type='text']").keypress(function(event) {
+  // if 'enter' is pressed
+  if (event.which === 13) {
+    // grab input
+    var todoText = $(this).val(); 
+    // clear input field
+    $(this).val("");
+    // create a new li and add to ul
+    $("ul").append("<li><span>X</span> " + todoText + "</li>")
+  }
+});
