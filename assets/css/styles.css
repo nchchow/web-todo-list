@@ -25,6 +25,17 @@ ul {
   margin: 0;
 }
 
+li {
+  background-color: #fff;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+
+li:nth-child(2n) {
+  background-color: #f7f7f7;
+}
+
 .done {
   color: gray;
   text-decoration: line-through;
