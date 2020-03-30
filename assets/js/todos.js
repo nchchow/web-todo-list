@@ -25,6 +25,7 @@ $("input[type='text']").keypress(function(event) {
   }
 });
 
+// toggle text field by clicking on '+'
 $(".fa-plus").on("click", function() {
   $("input[type='text']").fadeToggle();
 });
