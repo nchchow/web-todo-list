@@ -1,3 +1,4 @@
+/* BODY */
 body {
   font-family: Roboto;
   /* gradient from https://uigradients.com/#DigitalWater */
@@ -6,6 +7,7 @@ body {
   background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/* CONTAINER */
 #container {
   width: 360px;
   background-color: #f7f7f7;
@@ -13,6 +15,7 @@ body {
   margin: 100px auto;
 }
 
+/* HEADER */
 h1 {
   background-color: #2980b9;
   color: white;
@@ -27,6 +30,7 @@ h1 {
   float: right;
 }
 
+/* TEXT FIELD */
 input {
   width: 100%;
   color: #2980b9;
@@ -45,6 +49,7 @@ input:focus {
   outline: none;
 }
 
+/* LIST OF TODOS */
 ul {
   list-style: none;
   padding: 0;
@@ -62,6 +67,12 @@ li:nth-child(2n) {
   background-color: #f7f7f7;
 }
 
+.done {
+  color: gray;
+  text-decoration: line-through;
+}
+
+/* TRASH ICON */
 span {
   height: 40px;
   width: 0;
@@ -77,9 +88,4 @@ span {
 li:hover span {
   width: 40px;
   opacity: 1;
-}
-
-.done {
-  color: gray;
-  text-decoration: line-through;
 }
