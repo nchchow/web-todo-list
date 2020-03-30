@@ -23,6 +23,10 @@ h1 {
   margin: 0;
 }
 
+.fa-plus {
+  float: right;
+}
+
 input {
   width: 100%;
   color: #2980b9;
